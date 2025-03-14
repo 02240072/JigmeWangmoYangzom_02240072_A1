@@ -1,8 +1,10 @@
 #Array and length of array
+#start counting from 0
 firstArray = [12, 'gemini', "Happy", 12.72, True]
 firstArrayLength = len(firstArray)
 print(firstArrayLength)
 
+#append adds the element at the end of the array
 firstArray.append("Jigme")
 secondArrayLength = len(firstArray)
 print(secondArrayLength)
